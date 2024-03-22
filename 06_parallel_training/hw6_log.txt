@@ -1,0 +1,279 @@
+[30m[[0m[90m2024-03-22 [0m[90m00:55:28[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mconfigs[0m[92m:[0m[30m81[0m[30m][0m[1;38;2;131;131;131m - [0mSetting HF_DATASETS_CACHE to [32m/home/iklein/wordplay/.cache/huggingface/[0m[35mdatasets[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:30[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed_c10d[0m[92m:[0m[30m442[0m[30m][0m[1;38;2;131;131;131m - [0mAdded key: store_based_barrier_key:[95m1[0m to store for rank: [95m0[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:30[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed_c10d[0m[92m:[0m[30m442[0m[30m][0m[1;38;2;131;131;131m - [0mAdded key: store_based_barrier_key:[95m1[0m to store for rank: [95m2[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:30[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed_c10d[0m[92m:[0m[30m442[0m[30m][0m[1;38;2;131;131;131m - [0mAdded key: store_based_barrier_key:[95m1[0m to store for rank: [95m4[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:30[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed_c10d[0m[92m:[0m[30m442[0m[30m][0m[1;38;2;131;131;131m - [0mAdded key: store_based_barrier_key:[95m1[0m to store for rank: [95m6[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:30[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed_c10d[0m[92m:[0m[30m442[0m[30m][0m[1;38;2;131;131;131m - [0mAdded key: store_based_barrier_key:[95m1[0m to store for rank: [95m5[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:30[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed_c10d[0m[92m:[0m[30m442[0m[30m][0m[1;38;2;131;131;131m - [0mAdded key: store_based_barrier_key:[95m1[0m to store for rank: [95m1[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:30[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed_c10d[0m[92m:[0m[30m476[0m[30m][0m[1;38;2;131;131;131m - [0mRank [95m1[0m: Completed store-based barrier for key:store_based_barrier_key:[95m1[0m with [95m8[0m nodes.
+[30m[[0m[90m2024-03-22 [0m[90m00:55:30[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed_c10d[0m[92m:[0m[30m442[0m[30m][0m[1;38;2;131;131;131m - [0mAdded key: store_based_barrier_key:[95m1[0m to store for rank: [95m7[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:30[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed_c10d[0m[92m:[0m[30m476[0m[30m][0m[1;38;2;131;131;131m - [0mRank [95m7[0m: Completed store-based barrier for key:store_based_barrier_key:[95m1[0m with [95m8[0m nodes.
+[30m[[0m[90m2024-03-22 [0m[90m00:55:30[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed_c10d[0m[92m:[0m[30m442[0m[30m][0m[1;38;2;131;131;131m - [0mAdded key: store_based_barrier_key:[95m1[0m to store for rank: [95m3[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:30[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed_c10d[0m[92m:[0m[30m476[0m[30m][0m[1;38;2;131;131;131m - [0mRank [95m3[0m: Completed store-based barrier for key:store_based_barrier_key:[95m1[0m with [95m8[0m nodes.
+[30m[[0m[90m2024-03-22 [0m[90m00:55:30[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed_c10d[0m[92m:[0m[30m476[0m[30m][0m[1;38;2;131;131;131m - [0mRank [95m2[0m: Completed store-based barrier for key:store_based_barrier_key:[95m1[0m with [95m8[0m nodes.
+[30m[[0m[90m2024-03-22 [0m[90m00:55:30[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed_c10d[0m[92m:[0m[30m476[0m[30m][0m[1;38;2;131;131;131m - [0mRank [95m4[0m: Completed store-based barrier for key:store_based_barrier_key:[95m1[0m with [95m8[0m nodes.
+[30m[[0m[90m2024-03-22 [0m[90m00:55:30[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed_c10d[0m[92m:[0m[30m476[0m[30m][0m[1;38;2;131;131;131m - [0mRank [95m0[0m: Completed store-based barrier for key:store_based_barrier_key:[95m1[0m with [95m8[0m nodes.
+[30m[[0m[90m2024-03-22 [0m[90m00:55:30[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed_c10d[0m[92m:[0m[30m476[0m[30m][0m[1;38;2;131;131;131m - [0mRank [95m5[0m: Completed store-based barrier for key:store_based_barrier_key:[95m1[0m with [95m8[0m nodes.
+[30m[[0m[90m2024-03-22 [0m[90m00:55:30[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed_c10d[0m[92m:[0m[30m476[0m[30m][0m[1;38;2;131;131;131m - [0mRank [95m6[0m: Completed store-based barrier for key:store_based_barrier_key:[95m1[0m with [95m8[0m nodes.
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdist[0m[92m:[0m[30m290[0m[30m][0m[1;38;2;131;131;131m - [0m[1;97m[[0m[3;94mdevice[0m=[3;92m'cuda'[0m[1;97m][0m[1;97m[[0m[3;94mrank[0m=[95m2[0m/[95m7[0m[1;97m][0m[1;97m[[0m[3;94mlocal_rank[0m=[95m2[0m/[95m3[0m[1;97m][0m[1;97m[[0m[3;94mnode[0m=[95m0[0m/[95m1[0m[1;97m][0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdist[0m[92m:[0m[30m290[0m[30m][0m[1;38;2;131;131;131m - [0m[1;97m[[0m[3;94mdevice[0m=[3;92m'cuda'[0m[1;97m][0m[1;97m[[0m[3;94mrank[0m=[95m1[0m/[95m7[0m[1;97m][0m[1;97m[[0m[3;94mlocal_rank[0m=[95m1[0m/[95m3[0m[1;97m][0m[1;97m[[0m[3;94mnode[0m=[95m1[0m/[95m1[0m[1;97m][0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdist[0m[92m:[0m[30m239[0m[30m][0m[1;38;2;131;131;131m - [0m[3;94mDistInfo[0m=[1;97m{[0m
+    [3;92m"DEVICE"[0m: [3;92m"cuda"[0m,
+    [3;92m"DEVICE_ID"[0m: [3;92m"cuda:0"[0m,
+    [3;92m"DISTRIBUTED_BACKEND"[0m: [3;92m"nccl"[0m,
+    [3;92m"GPUS_PER_NODE"[0m: [95m4[0m,
+    [3;92m"HOSTFILE"[0m: [3;92m"/var/spool/pbs/aux/1794328.polaris-pbs-01.hsn.cm.polaris.alcf.anl.gov"[0m,
+    [3;92m"HOSTNAME"[0m: [3;92m"x3112c0s13b0n0.hsn.cm.polaris.alcf.anl.gov"[0m,
+    [3;92m"HOSTS"[0m: [3;92m"[0m[3;92m[[0m[3;92m'x3112c0s13b0n0', 'x3112c0s13b1n0'[0m[3;92m][0m[3;92m"[0m,
+    [3;92m"LOCAL_RANK"[0m: [95m0[0m,
+    [3;92m"MACHINE"[0m: [3;92m"Polaris"[0m,
+    [3;92m"NGPUS"[0m: [95m8[0m,
+    [3;92m"NODE_ID"[0m: [95m0[0m,
+    [3;92m"NUM_NODES"[0m: [95m2[0m,
+    [3;92m"RANK"[0m: [95m0[0m,
+    [3;92m"SCHEDULER"[0m: [3;92m"PBS"[0m,
+    [3;92m"WORLD_SIZE_IN_USE"[0m: [95m8[0m,
+    [3;92m"WORLD_SIZE_TOTAL"[0m: [95m8[0m
+[1;97m}[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdist[0m[92m:[0m[30m605[0m[30m][0m[1;38;2;131;131;131m - [0m[1;97m[[0m[95m0[0m/[95m8[0m[1;97m][0m Using [3;94mdevice[0m=[3;92m'cuda'[0m with [3;94mbackend[0m=[3;92m'DDP'[0m + [3;92m'nccl'[0m for distributed training.
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdist[0m[92m:[0m[30m290[0m[30m][0m[1;38;2;131;131;131m - [0m[1;97m[[0m[3;94mdevice[0m=[3;92m'cuda'[0m[1;97m][0m[1;97m[[0m[3;94mrank[0m=[95m3[0m/[95m7[0m[1;97m][0m[1;97m[[0m[3;94mlocal_rank[0m=[95m3[0m/[95m3[0m[1;97m][0m[1;97m[[0m[3;94mnode[0m=[95m1[0m/[95m1[0m[1;97m][0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdist[0m[92m:[0m[30m290[0m[30m][0m[1;38;2;131;131;131m - [0m[1;97m[[0m[3;94mdevice[0m=[3;92m'cuda'[0m[1;97m][0m[1;97m[[0m[3;94mrank[0m=[95m0[0m/[95m7[0m[1;97m][0m[1;97m[[0m[3;94mlocal_rank[0m=[95m0[0m/[95m3[0m[1;97m][0m[1;97m[[0m[3;94mnode[0m=[95m0[0m/[95m1[0m[1;97m][0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[93mWARNING[0m[30m][0m[30m[[0m[3;36mdist[0m[92m:[0m[30m296[0m[30m][0m[1;38;2;131;131;131m - [0mUsing [1;97m[[0m[95m8[0m [32m/[0m [95m8[0m[1;97m][0m available [3;92m"cuda"[0m devices !!
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mconfigs[0m[92m:[0m[30m317[0m[30m][0m[1;38;2;131;131;131m - [0mLoading train from [32m/home/iklein/wordplay/data/shakespeare_char/[0m[35mtrain.bin[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mconfigs[0m[92m:[0m[30m317[0m[30m][0m[1;38;2;131;131;131m - [0mLoading val from [32m/home/iklein/wordplay/data/shakespeare_char/[0m[35mval.bin[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdist[0m[92m:[0m[30m290[0m[30m][0m[1;38;2;131;131;131m - [0m[1;97m[[0m[3;94mdevice[0m=[3;92m'cuda'[0m[1;97m][0m[1;97m[[0m[3;94mrank[0m=[95m5[0m/[95m7[0m[1;97m][0m[1;97m[[0m[3;94mlocal_rank[0m=[95m1[0m/[95m3[0m[1;97m][0m[1;97m[[0m[3;94mnode[0m=[95m1[0m/[95m1[0m[1;97m][0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdist[0m[92m:[0m[30m290[0m[30m][0m[1;38;2;131;131;131m - [0m[1;97m[[0m[3;94mdevice[0m=[3;92m'cuda'[0m[1;97m][0m[1;97m[[0m[3;94mrank[0m=[95m6[0m/[95m7[0m[1;97m][0m[1;97m[[0m[3;94mlocal_rank[0m=[95m2[0m/[95m3[0m[1;97m][0m[1;97m[[0m[3;94mnode[0m=[95m0[0m/[95m1[0m[1;97m][0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mconfigs[0m[92m:[0m[30m442[0m[30m][0m[1;38;2;131;131;131m - [0mTokens per iteration: [95m131[0m,[95m072[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdist[0m[92m:[0m[30m290[0m[30m][0m[1;38;2;131;131;131m - [0m[1;97m[[0m[3;94mdevice[0m=[3;92m'cuda'[0m[1;97m][0m[1;97m[[0m[3;94mrank[0m=[95m7[0m/[95m7[0m[1;97m][0m[1;97m[[0m[3;94mlocal_rank[0m=[95m3[0m/[95m3[0m[1;97m][0m[1;97m[[0m[3;94mnode[0m=[95m1[0m/[95m1[0m[1;97m][0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdist[0m[92m:[0m[30m290[0m[30m][0m[1;38;2;131;131;131m - [0m[1;97m[[0m[3;94mdevice[0m=[3;92m'cuda'[0m[1;97m][0m[1;97m[[0m[3;94mrank[0m=[95m4[0m/[95m7[0m[1;97m][0m[1;97m[[0m[3;94mlocal_rank[0m=[95m0[0m/[95m3[0m[1;97m][0m[1;97m[[0m[3;94mnode[0m=[95m0[0m/[95m1[0m[1;97m][0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m227[0m[30m][0m[1;38;2;131;131;131m - [0mInitializing a new model from scratch
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m227[0m[30m][0m[1;38;2;131;131;131m - [0mInitializing a new model from scratch
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m227[0m[30m][0m[1;38;2;131;131;131m - [0mInitializing a new model from scratch
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m227[0m[30m][0m[1;38;2;131;131;131m - [0mInitializing a new model from scratch
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mconfigs[0m[92m:[0m[30m465[0m[30m][0m[1;38;2;131;131;131m - [0mUsing self.[3;94mptdtype[0m=[95mtorch[0m.bfloat16 on self.[3;94mdevice_type[0m=[3;92m'cuda'[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mconfigs[0m[92m:[0m[30m471[0m[30m][0m[1;38;2;131;131;131m - [0mInitializing a new model from scratch
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m227[0m[30m][0m[1;38;2;131;131;131m - [0mInitializing a new model from scratch
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m227[0m[30m][0m[1;38;2;131;131;131m - [0mInitializing a new model from scratch
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m227[0m[30m][0m[1;38;2;131;131;131m - [0mInitializing a new model from scratch
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdist[0m[92m:[0m[30m751[0m[30m][0m[1;38;2;131;131;131m - [0mSetting up wandb from rank: [95m0[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdist[0m[92m:[0m[30m752[0m[30m][0m[1;38;2;131;131;131m - [0mUsing: WB PROJECT: WordPlay
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;7;31mCRITICAL[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m296[0m[30m][0m[1;38;2;131;131;131m - [0m[3;92m"[0m[3;92mdevid[0m[3;92m='cuda:1'"[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;7;31mCRITICAL[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m296[0m[30m][0m[1;38;2;131;131;131m - [0m[3;92m"[0m[3;92mdevid[0m[3;92m='cuda:1'"[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;7;31mCRITICAL[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m296[0m[30m][0m[1;38;2;131;131;131m - [0m[3;92m"[0m[3;92mdevid[0m[3;92m='cuda:3'"[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;7;31mCRITICAL[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m296[0m[30m][0m[1;38;2;131;131;131m - [0m[3;92m"[0m[3;92mdevid[0m[3;92m='cuda:3'"[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;7;31mCRITICAL[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m296[0m[30m][0m[1;38;2;131;131;131m - [0m[3;92m"[0m[3;92mdevid[0m[3;92m='cuda:2'"[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;7;31mCRITICAL[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m296[0m[30m][0m[1;38;2;131;131;131m - [0m[3;92m"[0m[3;92mdevid[0m[3;92m='cuda:0'"[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:32[0m[30m][0m[30m[[0m[1;7;31mCRITICAL[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m296[0m[30m][0m[1;38;2;131;131;131m - [0m[3;92m"[0m[3;92mdevid[0m[3;92m='cuda:2'"[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:34[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdist[0m[92m:[0m[30m782[0m[30m][0m[1;38;2;131;131;131m - [0mW&B RUN: [1;97m[[0mfanciful-tree-[95m2[0m[1;97m][0m[1;97m([0m[4;94mhttps://wandb.ai/iklein/WordPlay/runs/xbhtj443[0m[4;94m)[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:34[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdist[0m[92m:[0m[30m810[0m[30m][0m[1;38;2;131;131;131m - [0mRunning on [3;94mmachine[0m=[3;92m'Polaris'[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:34[0m[30m][0m[30m[[0m[93mWARNING[0m[30m][0m[30m[[0m[3;36m__main__[0m[92m:[0m[30m87[0m[30m][0m[1;38;2;131;131;131m - [0m[1;97m{[0m
+    [3;92m"train"[0m: [1;97m{[0m
+        [3;92m"framework"[0m: [3;92m"pytorch"[0m,
+        [3;92m"backend"[0m: [3;92m"DDP"[0m,
+        [3;92m"device"[0m: null,
+        [3;92m"seed"[0m: null,
+        [3;92m"port"[0m: null,
+        [3;92m"ds_config_path"[0m: null,
+        [3;92m"precision"[0m: null,
+        [3;92m"ngpus"[0m: null,
+        [3;92m"use_wandb"[0m: true,
+        [3;92m"eval_interval"[0m: [95m250[0m,
+        [3;92m"log_interval"[0m: [95m5[0m,
+        [3;92m"eval_iters"[0m: [95m200[0m,
+        [3;92m"eval_only"[0m: false,
+        [3;92m"always_save_checkpoint"[0m: false,
+        [3;92m"init_from"[0m: [3;92m"scratch"[0m,
+        [3;92m"wandb_project"[0m: [3;92m"WordPlay"[0m,
+        [3;92m"max_iters"[0m: [95m100[0m,
+        [3;92m"warmup_iters"[0m: [95m100[0m,
+        [3;92m"dtype"[0m: [3;92m"bfloat16"[0m,
+        [3;92m"compile"[0m: false
+    [1;97m}[0m,
+    [3;92m"model"[0m: [1;97m{[0m
+        [3;92m"n_layer"[0m: [95m6[0m,
+        [3;92m"n_head"[0m: [95m6[0m,
+        [3;92m"n_embd"[0m: [95m384[0m,
+        [3;92m"batch_size"[0m: [95m64[0m,
+        [3;92m"block_size"[0m: [95m256[0m,
+        [3;92m"activation"[0m: [3;92m"gelu"[0m,
+        [3;92m"dropout"[0m: [95m0.2[0m,
+        [3;92m"bias"[0m: false,
+        [3;92m"vocab_size"[0m: [95m65[0m
+    [1;97m}[0m,
+    [3;92m"data"[0m: [1;97m{[0m
+        [3;92m"dataset"[0m: [3;92m"shakespeare_char"[0m,
+        [3;92m"out_dir"[0m: [3;92m"out-shakespeare-char"[0m,
+        [3;92m"root_path"[0m: null
+    [1;97m}[0m,
+    [3;92m"optimizer"[0m: [1;97m{[0m
+        [3;92m"gas"[0m: [95m1[0m,
+        [3;92m"name"[0m: [3;92m"AdamW"[0m,
+        [3;92m"learning_rate"[0m: [95m0.001[0m,
+        [3;92m"weight_decay"[0m: [95m0.1[0m,
+        [3;92m"beta1"[0m: [95m0.9[0m,
+        [3;92m"beta2"[0m: [95m0.99[0m,
+        [3;92m"grad_clip"[0m: [95m1.0[0m,
+        [3;92m"decay_lr"[0m: true,
+        [3;92m"lr_decay_iters"[0m: [95m5000[0m,
+        [3;92m"min_lr"[0m: [95m0.0001[0m
+    [1;97m}[0m
+[1;97m}[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:34[0m[30m][0m[30m[[0m[93mWARNING[0m[30m][0m[30m[[0m[3;36m__main__[0m[92m:[0m[30m88[0m[30m][0m[1;38;2;131;131;131m - [0mOutput dir: [32m/home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/[0m[35m00-55-30[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:34[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m227[0m[30m][0m[1;38;2;131;131;131m - [0mInitializing a new model from scratch
+[30m[[0m[90m2024-03-22 [0m[90m00:55:35[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mmodel[0m[92m:[0m[30m255[0m[30m][0m[1;38;2;131;131;131m - [0mnumber of parameters: [95m10.[0m65M
+[30m[[0m[90m2024-03-22 [0m[90m00:55:35[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mmodel[0m[92m:[0m[30m445[0m[30m][0m[1;38;2;131;131;131m - [0mnum decayed parameter tensors: [95m26[0m, with [95m10[0m,[95m740[0m,[95m096[0m parameters
+[30m[[0m[90m2024-03-22 [0m[90m00:55:35[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mmodel[0m[92m:[0m[30m449[0m[30m][0m[1;38;2;131;131;131m - [0mnum non-decayed parameter tensors: [95m13[0m, with [95m4[0m,[95m992[0m parameters
+[30m[[0m[90m2024-03-22 [0m[90m00:55:35[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mmodel[0m[92m:[0m[30m465[0m[30m][0m[1;38;2;131;131;131m - [0musing fused AdamW: [3;92mTrue[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:35[0m[30m][0m[30m[[0m[1;7;31mCRITICAL[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m296[0m[30m][0m[1;38;2;131;131;131m - [0m[3;92m"[0m[3;92mdevid[0m[3;92m='cuda:0'"[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:37[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m333[0m[30m][0m[1;38;2;131;131;131m - [0m• self.[3;94mmodel[0m=[1;35mGPT[0m[1;97m([0m
+  [1;97m([0mtransformer[1;97m)[0m: [1;35mModuleDict[0m[1;97m([0m
+    [1;97m([0mwte[1;97m)[0m: [1;35mEmbedding[0m[1;97m([0m[95m65[0m, [95m384[0m[1;97m)[0m
+    [1;97m([0mwpe[1;97m)[0m: [1;35mEmbedding[0m[1;97m([0m[95m256[0m, [95m384[0m[1;97m)[0m
+    [1;97m([0mdrop[1;97m)[0m: [1;35mDropout[0m[1;97m([0m[3;94mp[0m=[95m0[0m[95m.2[0m, [3;94minplace[0m=[3;91mFalse[0m[1;97m)[0m
+    [1;97m([0mh[1;97m)[0m: [1;35mModuleList[0m[1;97m([0m
+      [1;97m([0m[95m0[0m-[95m5[0m[1;97m)[0m: [95m6[0m x [1;35mBlock[0m[1;97m([0m
+        [1;97m([0mln_1[1;97m)[0m: [1;35mLayerNorm[0m[1;97m([0m[1;97m)[0m
+        [1;97m([0mattn[1;97m)[0m: [1;35mCausalSelfAttention[0m[1;97m([0m
+          [1;97m([0mc_attn[1;97m)[0m: [1;35mLinear[0m[1;97m([0m[3;94min_features[0m=[95m384[0m, [3;94mout_features[0m=[95m1152[0m, [3;94mbias[0m=[3;91mFalse[0m[1;97m)[0m
+          [1;97m([0mc_proj[1;97m)[0m: [1;35mLinear[0m[1;97m([0m[3;94min_features[0m=[95m384[0m, [3;94mout_features[0m=[95m384[0m, [3;94mbias[0m=[3;91mFalse[0m[1;97m)[0m
+          [1;97m([0mattn_dropout[1;97m)[0m: [1;35mDropout[0m[1;97m([0m[3;94mp[0m=[95m0[0m[95m.2[0m, [3;94minplace[0m=[3;91mFalse[0m[1;97m)[0m
+          [1;97m([0mresid_dropout[1;97m)[0m: [1;35mDropout[0m[1;97m([0m[3;94mp[0m=[95m0[0m[95m.2[0m, [3;94minplace[0m=[3;91mFalse[0m[1;97m)[0m
+        [1;97m)[0m
+        [1;97m([0mln_2[1;97m)[0m: [1;35mLayerNorm[0m[1;97m([0m[1;97m)[0m
+        [1;97m([0mmlp[1;97m)[0m: [1;35mMLP[0m[1;97m([0m
+          [1;97m([0mc_fc[1;97m)[0m: [1;35mLinear[0m[1;97m([0m[3;94min_features[0m=[95m384[0m, [3;94mout_features[0m=[95m1536[0m, [3;94mbias[0m=[3;91mFalse[0m[1;97m)[0m
+          [1;97m([0mact_fn[1;97m)[0m: [1;35mGELU[0m[1;97m([0m[3;94mapproximate[0m=[3;92m'none'[0m[1;97m)[0m
+          [1;97m([0mc_proj[1;97m)[0m: [1;35mLinear[0m[1;97m([0m[3;94min_features[0m=[95m1536[0m, [3;94mout_features[0m=[95m384[0m, [3;94mbias[0m=[3;91mFalse[0m[1;97m)[0m
+          [1;97m([0mdropout[1;97m)[0m: [1;35mDropout[0m[1;97m([0m[3;94mp[0m=[95m0[0m[95m.2[0m, [3;94minplace[0m=[3;91mFalse[0m[1;97m)[0m
+        [1;97m)[0m
+      [1;97m)[0m
+    [1;97m)[0m
+    [1;97m([0mln_f[1;97m)[0m: [1;35mLayerNorm[0m[1;97m([0m[1;97m)[0m
+  [1;97m)[0m
+  [1;97m([0mlm_head[1;97m)[0m: [1;35mLinear[0m[1;97m([0m[3;94min_features[0m=[95m384[0m, [3;94mout_features[0m=[95m65[0m, [3;94mbias[0m=[3;91mFalse[0m[1;97m)[0m
+[1;97m)[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:37[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m334[0m[30m][0m[1;38;2;131;131;131m - [0m• self.[3;94mgrad_scaler[0m=[1m<[0m[1;95mtorch.cuda.amp.grad_scaler.GradScaler[0m[39m object at [0m[95m0x1520944fff40[0m[1m>[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:37[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m769[0m[30m][0m[1;38;2;131;131;131m - [0mStartup time: [95m7.5074[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:37[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m769[0m[30m][0m[1;38;2;131;131;131m - [0mStartup time: [95m7.5065[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:37[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m335[0m[30m][0m[1;38;2;131;131;131m - [0m• self.[3;94mmodel_engine[0m=[1;35mDistributedDataParallel[0m[1;97m([0m
+  [1;97m([0mmodule[1;97m)[0m: [1;35mGPT[0m[1;97m([0m
+    [1;97m([0mtransformer[1;97m)[0m: [1;35mModuleDict[0m[1;97m([0m
+      [1;97m([0mwte[1;97m)[0m: [1;35mEmbedding[0m[1;97m([0m[95m65[0m, [95m384[0m[1;97m)[0m
+      [1;97m([0mwpe[1;97m)[0m: [1;35mEmbedding[0m[1;97m([0m[95m256[0m, [95m384[0m[1;97m)[0m
+      [1;97m([0mdrop[1;97m)[0m: [1;35mDropout[0m[1;97m([0m[3;94mp[0m=[95m0[0m[95m.2[0m, [3;94minplace[0m=[3;91mFalse[0m[1;97m)[0m
+      [1;97m([0mh[1;97m)[0m: [1;35mModuleList[0m[1;97m([0m
+        [1;97m([0m[95m0[0m-[95m5[0m[1;97m)[0m: [95m6[0m x [1;35mBlock[0m[1;97m([0m
+          [1;97m([0mln_1[1;97m)[0m: [1;35mLayerNorm[0m[1;97m([0m[1;97m)[0m
+          [1;97m([0mattn[1;97m)[0m: [1;35mCausalSelfAttention[0m[1;97m([0m
+            [1;97m([0mc_attn[1;97m)[0m: [1;35mLinear[0m[1;97m([0m[3;94min_features[0m=[95m384[0m, [3;94mout_features[0m=[95m1152[0m, [3;94mbias[0m=[3;91mFalse[0m[1;97m)[0m
+            [1;97m([0mc_proj[1;97m)[0m: [1;35mLinear[0m[1;97m([0m[3;94min_features[0m=[95m384[0m, [3;94mout_features[0m=[95m384[0m, [3;94mbias[0m=[3;91mFalse[0m[1;97m)[0m
+            [1;97m([0mattn_dropout[1;97m)[0m: [1;35mDropout[0m[1;97m([0m[3;94mp[0m=[95m0[0m[95m.2[0m, [3;94minplace[0m=[3;91mFalse[0m[1;97m)[0m
+            [1;97m([0mresid_dropout[1;97m)[0m: [1;35mDropout[0m[1;97m([0m[3;94mp[0m=[95m0[0m[95m.2[0m, [3;94minplace[0m=[3;91mFalse[0m[1;97m)[0m
+          [1;97m)[0m
+          [1;97m([0mln_2[1;97m)[0m: [1;35mLayerNorm[0m[1;97m([0m[1;97m)[0m
+          [1;97m([0mmlp[1;97m)[0m: [1;35mMLP[0m[1;97m([0m
+            [1;97m([0mc_fc[1;97m)[0m: [1;35mLinear[0m[1;97m([0m[3;94min_features[0m=[95m384[0m, [3;94mout_features[0m=[95m1536[0m, [3;94mbias[0m=[3;91mFalse[0m[1;97m)[0m
+            [1;97m([0mact_fn[1;97m)[0m: [1;35mGELU[0m[1;97m([0m[3;94mapproximate[0m=[3;92m'none'[0m[1;97m)[0m
+            [1;97m([0mc_proj[1;97m)[0m: [1;35mLinear[0m[1;97m([0m[3;94min_features[0m=[95m1536[0m, [3;94mout_features[0m=[95m384[0m, [3;94mbias[0m=[3;91mFalse[0m[1;97m)[0m
+            [1;97m([0mdropout[1;97m)[0m: [1;35mDropout[0m[1;97m([0m[3;94mp[0m=[95m0[0m[95m.2[0m, [3;94minplace[0m=[3;91mFalse[0m[1;97m)[0m
+          [1;97m)[0m
+        [1;97m)[0m
+      [1;97m)[0m
+      [1;97m([0mln_f[1;97m)[0m: [1;35mLayerNorm[0m[1;97m([0m[1;97m)[0m
+    [1;97m)[0m
+    [1;97m([0mlm_head[1;97m)[0m: [1;35mLinear[0m[1;97m([0m[3;94min_features[0m=[95m384[0m, [3;94mout_features[0m=[95m65[0m, [3;94mbias[0m=[3;91mFalse[0m[1;97m)[0m
+  [1;97m)[0m
+[1;97m)[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:37[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m336[0m[30m][0m[1;38;2;131;131;131m - [0m• self.[3;94moptimizer[0m=[95mAdamW[0m [1;97m([0m
+Parameter Group [95m0[0m
+    amsgrad: [3;91mFalse[0m
+    betas: [1;97m([0m[95m0.9[0m, [95m0.99[0m[1;97m)[0m
+    capturable: [3;91mFalse[0m
+    differentiable: [3;91mFalse[0m
+    eps: [95m1e-08[0m
+    foreach: [3;95mNone[0m
+    fused: [3;92mTrue[0m
+    lr: [95m0.001[0m
+    maximize: [3;91mFalse[0m
+    weight_decay: [95m0.1[0m
+
+Parameter Group [95m1[0m
+    amsgrad: [3;91mFalse[0m
+    betas: [1;97m([0m[95m0.9[0m, [95m0.99[0m[1;97m)[0m
+    capturable: [3;91mFalse[0m
+    differentiable: [3;91mFalse[0m
+    eps: [95m1e-08[0m
+    foreach: [3;95mNone[0m
+    fused: [3;92mTrue[0m
+    lr: [95m0.001[0m
+    maximize: [3;91mFalse[0m
+    weight_decay: [95m0.0[0m
+[1;97m)[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:37[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m769[0m[30m][0m[1;38;2;131;131;131m - [0mStartup time: [95m7.9994[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:37[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m769[0m[30m][0m[1;38;2;131;131;131m - [0mStartup time: [95m8.0008[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:37[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m769[0m[30m][0m[1;38;2;131;131;131m - [0mStartup time: [95m8.0009[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:37[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m769[0m[30m][0m[1;38;2;131;131;131m - [0mStartup time: [95m8.0008[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:37[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m769[0m[30m][0m[1;38;2;131;131;131m - [0mStartup time: [95m7.5195[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:37[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m769[0m[30m][0m[1;38;2;131;131;131m - [0mStartup time: [95m7.5165[0m
+                              Training Legend                               
+┏━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃    abbr    ┃ desc                                                        ┃
+┡━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│    step    │ Current training iteration                                  │
+│    loss    │ Loss value                                                  │
+│     dt     │ Elapsed time per training step (measured in **ms**)         │
+│    dtf     │ Elapsed time per forward step (measured in **ms**)          │
+│    dtb     │ Elapsed time per backward step (measured in **ms**)         │
+│    sps     │ Samples per second                                          │
+│    mtps    │ Tokens per second, measured in MEGA (1 x 10^6) tokens / sec │
+│    mfu     │ Model flops utilization                                     │
+│ train_loss │ Training loss value                                         │
+│  val_loss  │ Validation loss value                                       │
+└────────────┴─────────────────────────────────────────────────────────────┘
+[30m[[0m[90m2024-03-22 [0m[90m00:55:41[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed[0m[92m:[0m[30m1140[0m[30m][0m[1;38;2;131;131;131m - [0mReducer buckets have been rebuilt in this iteration.
+[30m[[0m[90m2024-03-22 [0m[90m00:55:41[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed[0m[92m:[0m[30m1140[0m[30m][0m[1;38;2;131;131;131m - [0mReducer buckets have been rebuilt in this iteration.
+[30m[[0m[90m2024-03-22 [0m[90m00:55:41[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed[0m[92m:[0m[30m1140[0m[30m][0m[1;38;2;131;131;131m - [0mReducer buckets have been rebuilt in this iteration.
+[30m[[0m[90m2024-03-22 [0m[90m00:55:41[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed[0m[92m:[0m[30m1140[0m[30m][0m[1;38;2;131;131;131m - [0mReducer buckets have been rebuilt in this iteration.
+[30m[[0m[90m2024-03-22 [0m[90m00:55:41[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed[0m[92m:[0m[30m1140[0m[30m][0m[1;38;2;131;131;131m - [0mReducer buckets have been rebuilt in this iteration.
+[30m[[0m[90m2024-03-22 [0m[90m00:55:41[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed[0m[92m:[0m[30m1140[0m[30m][0m[1;38;2;131;131;131m - [0mReducer buckets have been rebuilt in this iteration.
+[30m[[0m[90m2024-03-22 [0m[90m00:55:41[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed[0m[92m:[0m[30m1140[0m[30m][0m[1;38;2;131;131;131m - [0mReducer buckets have been rebuilt in this iteration.
+[30m[[0m[90m2024-03-22 [0m[90m00:55:41[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mdistributed[0m[92m:[0m[30m1140[0m[30m][0m[1;38;2;131;131;131m - [0mReducer buckets have been rebuilt in this iteration.
+[30m[[0m[90m2024-03-22 [0m[90m00:55:41[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m837[0m[30m][0m[1;38;2;131;131;131m - [0m[3;94mstep[0m=[95m5[0m [3;94mloss[0m=[95m3[0m[95m.6669[0m [3;94mdt[0m=[95m130[0m[95m.9813[0m [3;94mdtf[0m=[95m4[0m[95m.8399[0m [3;94mdtb[0m=[95m123[0m[95m.4454[0m [3;94msps[0m=[95m61[0m[95m.0774[0m [3;94mmtps[0m=[95m1[0m[95m.0007[0m [3;94mmfu[0m=[95m-100.0000[0m [3;94mtrain_loss[0m=[95m4[0m[95m.3095[0m [3;94mval_loss[0m=[95m4[0m[95m.3069[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:42[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m837[0m[30m][0m[1;38;2;131;131;131m - [0m[3;94mstep[0m=[95m10[0m [3;94mloss[0m=[95m3[0m[95m.2700[0m [3;94mdt[0m=[95m104[0m[95m.2670[0m [3;94mdtf[0m=[95m4[0m[95m.4590[0m [3;94mdtb[0m=[95m97[0m[95m.1690[0m [3;94msps[0m=[95m76[0m[95m.7261[0m [3;94mmtps[0m=[95m1[0m[95m.2571[0m [3;94mmfu[0m=[95m3[0m[95m.5737[0m [3;94mtrain_loss[0m=[95m4[0m[95m.3095[0m [3;94mval_loss[0m=[95m4[0m[95m.3069[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:42[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m837[0m[30m][0m[1;38;2;131;131;131m - [0m[3;94mstep[0m=[95m15[0m [3;94mloss[0m=[95m2[0m[95m.9892[0m [3;94mdt[0m=[95m61[0m[95m.1866[0m [3;94mdtf[0m=[95m4[0m[95m.3513[0m [3;94mdtb[0m=[95m54[0m[95m.8262[0m [3;94msps[0m=[95m130[0m[95m.7475[0m [3;94mmtps[0m=[95m2[0m[95m.1422[0m [3;94mmfu[0m=[95m3[0m[95m.8254[0m [3;94mtrain_loss[0m=[95m4[0m[95m.3095[0m [3;94mval_loss[0m=[95m4[0m[95m.3069[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:42[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m837[0m[30m][0m[1;38;2;131;131;131m - [0m[3;94mstep[0m=[95m20[0m [3;94mloss[0m=[95m2[0m[95m.8118[0m [3;94mdt[0m=[95m83[0m[95m.7310[0m [3;94mdtf[0m=[95m4[0m[95m.4262[0m [3;94mdtb[0m=[95m76[0m[95m.5412[0m [3;94msps[0m=[95m95[0m[95m.5441[0m [3;94mmtps[0m=[95m1[0m[95m.5654[0m [3;94mmfu[0m=[95m3[0m[95m.8879[0m [3;94mtrain_loss[0m=[95m4[0m[95m.3095[0m [3;94mval_loss[0m=[95m4[0m[95m.3069[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:43[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m837[0m[30m][0m[1;38;2;131;131;131m - [0m[3;94mstep[0m=[95m25[0m [3;94mloss[0m=[95m2[0m[95m.6852[0m [3;94mdt[0m=[95m69[0m[95m.6398[0m [3;94mdtf[0m=[95m4[0m[95m.4630[0m [3;94mdtb[0m=[95m63[0m[95m.1427[0m [3;94msps[0m=[95m114[0m[95m.8768[0m [3;94mmtps[0m=[95m1[0m[95m.8821[0m [3;94mmfu[0m=[95m4[0m[95m.0341[0m [3;94mtrain_loss[0m=[95m4[0m[95m.3095[0m [3;94mval_loss[0m=[95m4[0m[95m.3069[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:43[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m837[0m[30m][0m[1;38;2;131;131;131m - [0m[3;94mstep[0m=[95m30[0m [3;94mloss[0m=[95m2[0m[95m.5969[0m [3;94mdt[0m=[95m68[0m[95m.3848[0m [3;94mdtf[0m=[95m4[0m[95m.5016[0m [3;94mdtb[0m=[95m61[0m[95m.1654[0m [3;94msps[0m=[95m116[0m[95m.9850[0m [3;94mmtps[0m=[95m1[0m[95m.9167[0m [3;94mmfu[0m=[95m4[0m[95m.1756[0m [3;94mtrain_loss[0m=[95m4[0m[95m.3095[0m [3;94mval_loss[0m=[95m4[0m[95m.3069[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:44[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m837[0m[30m][0m[1;38;2;131;131;131m - [0m[3;94mstep[0m=[95m35[0m [3;94mloss[0m=[95m2[0m[95m.5943[0m [3;94mdt[0m=[95m96[0m[95m.8216[0m [3;94mdtf[0m=[95m4[0m[95m.4184[0m [3;94mdtb[0m=[95m90[0m[95m.3886[0m [3;94msps[0m=[95m82[0m[95m.6262[0m [3;94mmtps[0m=[95m1[0m[95m.3537[0m [3;94mmfu[0m=[95m4[0m[95m.1429[0m [3;94mtrain_loss[0m=[95m4[0m[95m.3095[0m [3;94mval_loss[0m=[95m4[0m[95m.3069[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:44[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m837[0m[30m][0m[1;38;2;131;131;131m - [0m[3;94mstep[0m=[95m40[0m [3;94mloss[0m=[95m2[0m[95m.5349[0m [3;94mdt[0m=[95m99[0m[95m.1443[0m [3;94mdtf[0m=[95m4[0m[95m.4247[0m [3;94mdtb[0m=[95m91[0m[95m.2822[0m [3;94msps[0m=[95m80[0m[95m.6904[0m [3;94mmtps[0m=[95m1[0m[95m.3220[0m [3;94mmfu[0m=[95m4[0m[95m.1045[0m [3;94mtrain_loss[0m=[95m4[0m[95m.3095[0m [3;94mval_loss[0m=[95m4[0m[95m.3069[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:45[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m837[0m[30m][0m[1;38;2;131;131;131m - [0m[3;94mstep[0m=[95m45[0m [3;94mloss[0m=[95m2[0m[95m.5370[0m [3;94mdt[0m=[95m79[0m[95m.7589[0m [3;94mdtf[0m=[95m4[0m[95m.4971[0m [3;94mdtb[0m=[95m73[0m[95m.2361[0m [3;94msps[0m=[95m100[0m[95m.3023[0m [3;94mmtps[0m=[95m1[0m[95m.6434[0m [3;94mmfu[0m=[95m4[0m[95m.1612[0m [3;94mtrain_loss[0m=[95m4[0m[95m.3095[0m [3;94mval_loss[0m=[95m4[0m[95m.3069[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:45[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m837[0m[30m][0m[1;38;2;131;131;131m - [0m[3;94mstep[0m=[95m50[0m [3;94mloss[0m=[95m2[0m[95m.5179[0m [3;94mdt[0m=[95m91[0m[95m.1555[0m [3;94mdtf[0m=[95m4[0m[95m.4319[0m [3;94mdtb[0m=[95m83[0m[95m.9360[0m [3;94msps[0m=[95m87[0m[95m.7621[0m [3;94mmtps[0m=[95m1[0m[95m.4379[0m [3;94mmfu[0m=[95m4[0m[95m.1539[0m [3;94mtrain_loss[0m=[95m4[0m[95m.3095[0m [3;94mval_loss[0m=[95m4[0m[95m.3069[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:46[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m837[0m[30m][0m[1;38;2;131;131;131m - [0m[3;94mstep[0m=[95m55[0m [3;94mloss[0m=[95m2[0m[95m.4923[0m [3;94mdt[0m=[95m135[0m[95m.5156[0m [3;94mdtf[0m=[95m4[0m[95m.3663[0m [3;94mdtb[0m=[95m129[0m[95m.1773[0m [3;94msps[0m=[95m59[0m[95m.0338[0m [3;94mmtps[0m=[95m0[0m[95m.9672[0m [3;94mmfu[0m=[95m4[0m[95m.0134[0m [3;94mtrain_loss[0m=[95m4[0m[95m.3095[0m [3;94mval_loss[0m=[95m4[0m[95m.3069[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:46[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m837[0m[30m][0m[1;38;2;131;131;131m - [0m[3;94mstep[0m=[95m60[0m [3;94mloss[0m=[95m2[0m[95m.4885[0m [3;94mdt[0m=[95m121[0m[95m.9948[0m [3;94mdtf[0m=[95m4[0m[95m.4254[0m [3;94mdtb[0m=[95m114[0m[95m.8151[0m [3;94msps[0m=[95m65[0m[95m.5765[0m [3;94mmtps[0m=[95m1[0m[95m.0744[0m [3;94mmfu[0m=[95m3[0m[95m.9175[0m [3;94mtrain_loss[0m=[95m4[0m[95m.3095[0m [3;94mval_loss[0m=[95m4[0m[95m.3069[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:47[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m837[0m[30m][0m[1;38;2;131;131;131m - [0m[3;94mstep[0m=[95m65[0m [3;94mloss[0m=[95m2[0m[95m.5062[0m [3;94mdt[0m=[95m85[0m[95m.1828[0m [3;94mdtf[0m=[95m4[0m[95m.5183[0m [3;94mdtb[0m=[95m78[0m[95m.6032[0m [3;94msps[0m=[95m93[0m[95m.9156[0m [3;94mmtps[0m=[95m1[0m[95m.5387[0m [3;94mmfu[0m=[95m3[0m[95m.9632[0m [3;94mtrain_loss[0m=[95m4[0m[95m.3095[0m [3;94mval_loss[0m=[95m4[0m[95m.3069[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:47[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m837[0m[30m][0m[1;38;2;131;131;131m - [0m[3;94mstep[0m=[95m70[0m [3;94mloss[0m=[95m2[0m[95m.4804[0m [3;94mdt[0m=[95m80[0m[95m.8766[0m [3;94mdtf[0m=[95m4[0m[95m.3602[0m [3;94mdtb[0m=[95m73[0m[95m.7676[0m [3;94msps[0m=[95m98[0m[95m.9161[0m [3;94mmtps[0m=[95m1[0m[95m.6206[0m [3;94mmfu[0m=[95m4[0m[95m.0276[0m [3;94mtrain_loss[0m=[95m4[0m[95m.3095[0m [3;94mval_loss[0m=[95m4[0m[95m.3069[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:48[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m837[0m[30m][0m[1;38;2;131;131;131m - [0m[3;94mstep[0m=[95m75[0m [3;94mloss[0m=[95m2[0m[95m.4735[0m [3;94mdt[0m=[95m100[0m[95m.9789[0m [3;94mdtf[0m=[95m4[0m[95m.2937[0m [3;94mdtb[0m=[95m94[0m[95m.6878[0m [3;94msps[0m=[95m79[0m[95m.2244[0m [3;94mmtps[0m=[95m1[0m[95m.2980[0m [3;94mmfu[0m=[95m3[0m[95m.9939[0m [3;94mtrain_loss[0m=[95m4[0m[95m.3095[0m [3;94mval_loss[0m=[95m4[0m[95m.3069[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:48[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m837[0m[30m][0m[1;38;2;131;131;131m - [0m[3;94mstep[0m=[95m80[0m [3;94mloss[0m=[95m2[0m[95m.4667[0m [3;94mdt[0m=[95m99[0m[95m.9481[0m [3;94mdtf[0m=[95m4[0m[95m.6579[0m [3;94mdtb[0m=[95m92[0m[95m.5908[0m [3;94msps[0m=[95m80[0m[95m.0416[0m [3;94mmtps[0m=[95m1[0m[95m.3114[0m [3;94mmfu[0m=[95m3[0m[95m.9673[0m [3;94mtrain_loss[0m=[95m4[0m[95m.3095[0m [3;94mval_loss[0m=[95m4[0m[95m.3069[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:49[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m837[0m[30m][0m[1;38;2;131;131;131m - [0m[3;94mstep[0m=[95m85[0m [3;94mloss[0m=[95m2[0m[95m.4415[0m [3;94mdt[0m=[95m99[0m[95m.8985[0m [3;94mdtf[0m=[95m4[0m[95m.3170[0m [3;94mdtb[0m=[95m93[0m[95m.6299[0m [3;94msps[0m=[95m80[0m[95m.0813[0m [3;94mmtps[0m=[95m1[0m[95m.3121[0m [3;94mmfu[0m=[95m3[0m[95m.9436[0m [3;94mtrain_loss[0m=[95m4[0m[95m.3095[0m [3;94mval_loss[0m=[95m4[0m[95m.3069[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:49[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m837[0m[30m][0m[1;38;2;131;131;131m - [0m[3;94mstep[0m=[95m90[0m [3;94mloss[0m=[95m2[0m[95m.4172[0m [3;94mdt[0m=[95m99[0m[95m.5289[0m [3;94mdtf[0m=[95m4[0m[95m.3842[0m [3;94mdtb[0m=[95m92[0m[95m.3704[0m [3;94msps[0m=[95m80[0m[95m.3787[0m [3;94mmtps[0m=[95m1[0m[95m.3169[0m [3;94mmfu[0m=[95m3[0m[95m.9236[0m [3;94mtrain_loss[0m=[95m4[0m[95m.3095[0m [3;94mval_loss[0m=[95m4[0m[95m.3069[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:49[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m837[0m[30m][0m[1;38;2;131;131;131m - [0m[3;94mstep[0m=[95m95[0m [3;94mloss[0m=[95m2[0m[95m.4319[0m [3;94mdt[0m=[95m111[0m[95m.5128[0m [3;94mdtf[0m=[95m4[0m[95m.6046[0m [3;94mdtb[0m=[95m104[0m[95m.8651[0m [3;94msps[0m=[95m71[0m[95m.7407[0m [3;94mmtps[0m=[95m1[0m[95m.1754[0m [3;94mmfu[0m=[95m3[0m[95m.8654[0m [3;94mtrain_loss[0m=[95m4[0m[95m.3095[0m [3;94mval_loss[0m=[95m4[0m[95m.3069[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:50[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m837[0m[30m][0m[1;38;2;131;131;131m - [0m[3;94mstep[0m=[95m100[0m [3;94mloss[0m=[95m2[0m[95m.4357[0m [3;94mdt[0m=[95m81[0m[95m.2569[0m [3;94mdtf[0m=[95m4[0m[95m.5514[0m [3;94mdtb[0m=[95m73[0m[95m.9392[0m [3;94msps[0m=[95m98[0m[95m.4532[0m [3;94mmtps[0m=[95m1[0m[95m.6131[0m [3;94mmfu[0m=[95m3[0m[95m.9374[0m [3;94mtrain_loss[0m=[95m4[0m[95m.3095[0m [3;94mval_loss[0m=[95m4[0m[95m.3069[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:51[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36m__main__[0m[92m:[0m[30m113[0m[30m][0m[1;38;2;131;131;131m - [0m[1;97m[[0m[3;92m'prompt'[0m[1;97m][0m: [3;92m'What is an LLM?'[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:51[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36m__main__[0m[92m:[0m[30m114[0m[30m][0m[1;38;2;131;131;131m - [0m[1;97m[[0m[3;92m'response'[0m[1;97m][0m:
+
+What is an LLM?
+
+PRDUCETER:
+Don o om wer satet:
+Dond; ithat, famy me lind ngo my icenord ththe t sick, ire nd ltintho se nelll oure,
+The wo ier oreretarton he,
+Wh ond wisasithet.
+ARint tou he olens is ctha wn brt amas ou mowin h IARO:
+CELAR:
+
+IULAUS:
+MARETEIS:
+Th f hint 
+[30m[[0m[90m2024-03-22 [0m[90m00:55:51[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m735[0m[30m][0m[1;38;2;131;131;131m - [0mSaving checkpoint to: [32m/home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/[0m[35m00-55-30[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:51[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mtrainer[0m[92m:[0m[30m736[0m[30m][0m[1;38;2;131;131;131m - [0mSaving model to: [32m/home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-55-30/[0m[35mmodel.pth[0m
+[30m[[0m[90m2024-03-22 [0m[90m00:55:51[0m[30m][0m[30m[[0m[1;32mINFO[0m[30m][0m[30m[[0m[3;36mconfigs[0m[92m:[0m[30m141[0m[30m][0m[1;38;2;131;131;131m - [0mAppending [32m/home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/[0m[35m00-55-30[0m to [32m/home/iklein/wordplay/src/ckpts/[0m[35mcheckpoints.log[0m
