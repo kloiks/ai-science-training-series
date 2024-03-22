@@ -1,0 +1,326 @@
+2024-03-22 00:49:51,793 INFO    StreamThr :56954 [internal.py:wandb_internal():86] W&B internal server running at pid: 56954, started at: 2024-03-22 00:49:51.791515
+2024-03-22 00:49:51,795 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: status
+2024-03-22 00:49:51,800 INFO    WriterThread:56954 [datastore.py:open_for_write():85] open: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/run-lwmp9tvl.wandb
+2024-03-22 00:49:51,802 DEBUG   SenderThread:56954 [sender.py:send():380] send: header
+2024-03-22 00:49:51,819 DEBUG   SenderThread:56954 [sender.py:send():380] send: run
+2024-03-22 00:49:52,105 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: check_version
+2024-03-22 00:49:52,107 INFO    SenderThread:56954 [dir_watcher.py:__init__():211] watching files in: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files
+2024-03-22 00:49:52,107 INFO    SenderThread:56954 [sender.py:_start_run_threads():1122] run started: lwmp9tvl with start time 1711068591.797341
+2024-03-22 00:49:52,107 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: check_version
+2024-03-22 00:49:52,180 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: run_start
+2024-03-22 00:49:52,185 DEBUG   HandlerThread:56954 [system_info.py:__init__():32] System info init
+2024-03-22 00:49:52,185 DEBUG   HandlerThread:56954 [system_info.py:__init__():47] System info init done
+2024-03-22 00:49:52,185 INFO    HandlerThread:56954 [system_monitor.py:start():194] Starting system monitor
+2024-03-22 00:49:52,185 INFO    SystemMonitor:56954 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-22 00:49:52,185 INFO    HandlerThread:56954 [system_monitor.py:probe():214] Collecting system info
+2024-03-22 00:49:52,188 INFO    SystemMonitor:56954 [interfaces.py:start():190] Started cpu monitoring
+2024-03-22 00:49:52,190 INFO    SystemMonitor:56954 [interfaces.py:start():190] Started disk monitoring
+2024-03-22 00:49:52,191 INFO    SystemMonitor:56954 [interfaces.py:start():190] Started gpu monitoring
+2024-03-22 00:49:52,193 INFO    SystemMonitor:56954 [interfaces.py:start():190] Started memory monitoring
+2024-03-22 00:49:52,193 INFO    SystemMonitor:56954 [interfaces.py:start():190] Started network monitoring
+2024-03-22 00:49:52,231 DEBUG   HandlerThread:56954 [system_info.py:probe():196] Probing system
+2024-03-22 00:49:52,252 DEBUG   HandlerThread:56954 [system_info.py:_probe_git():181] Probing git
+2024-03-22 00:49:52,265 DEBUG   HandlerThread:56954 [system_info.py:_probe_git():189] Probing git done
+2024-03-22 00:49:52,265 DEBUG   HandlerThread:56954 [system_info.py:probe():244] Probing system done
+2024-03-22 00:49:52,265 DEBUG   HandlerThread:56954 [system_monitor.py:probe():223] {'os': 'Linux-5.3.18-150300.59.115-default-x86_64-with-glibc2.31', 'python': '3.10.12', 'heartbeatAt': '2024-03-22T00:49:52.231920', 'startedAt': '2024-03-22T00:49:51.766171', 'docker': None, 'cuda': None, 'args': ('+experiment=shakespeare', 'data=shakespeare', 'train.backend=DDP', 'train.max_iters=100', 'train.log_interval=5', 'train.compile=false'), 'state': 'running', 'program': '/home/iklein/wordplay/src/wordplay/__main__.py', 'codePathLocal': None, 'codePath': 'src/wordplay/__main__.py', 'git': {'remote': 'https://github.com/saforem2/wordplay', 'commit': 'ca2bf98beec4f8d2894459fb420915f68398d80d'}, 'email': 'iklein@hawk.iit.edu', 'root': '/home/iklein/wordplay', 'host': 'x3112c0s13b0n0', 'username': 'iklein', 'executable': '/home/iklein/wordplay/venvs/polaris/2023-10-04/bin/python3', 'cpu_count': 32, 'cpu_count_logical': 64, 'cpu_freq': {'current': 2444.5854375, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 3456.588, 'min': 0.0, 'max': 0.0}, {'current': 3603.452, 'min': 0.0, 'max': 0.0}, {'current': 2138.646, 'min': 0.0, 'max': 0.0}, {'current': 2132.321, 'min': 0.0, 'max': 0.0}, {'current': 1632.449, 'min': 0.0, 'max': 0.0}, {'current': 1794.842, 'min': 0.0, 'max': 0.0}, {'current': 1794.735, 'min': 0.0, 'max': 0.0}, {'current': 1793.797, 'min': 0.0, 'max': 0.0}, {'current': 1796.074, 'min': 0.0, 'max': 0.0}, {'current': 1601.685, 'min': 0.0, 'max': 0.0}, {'current': 1793.704, 'min': 0.0, 'max': 0.0}, {'current': 1795.987, 'min': 0.0, 'max': 0.0}, {'current': 1795.844, 'min': 0.0, 'max': 0.0}, {'current': 1793.505, 'min': 0.0, 'max': 0.0}, {'current': 1794.869, 'min': 0.0, 'max': 0.0}, {'current': 1793.832, 'min': 0.0, 'max': 0.0}, {'current': 1794.651, 'min': 0.0, 'max': 0.0}, {'current': 1794.063, 'min': 0.0, 'max': 0.0}, {'current': 1795.264, 'min': 0.0, 'max': 0.0}, {'current': 1793.926, 'min': 0.0, 'max': 0.0}, {'current': 1631.622, 'min': 0.0, 'max': 0.0}, {'current': 1631.168, 'min': 0.0, 'max': 0.0}, {'current': 1637.709, 'min': 0.0, 'max': 0.0}, {'current': 1633.194, 'min': 0.0, 'max': 0.0}, {'current': 1633.828, 'min': 0.0, 'max': 0.0}, {'current': 1635.871, 'min': 0.0, 'max': 0.0}, {'current': 1631.881, 'min': 0.0, 'max': 0.0}, {'current': 1621.054, 'min': 0.0, 'max': 0.0}, {'current': 1548.174, 'min': 0.0, 'max': 0.0}, {'current': 1636.185, 'min': 0.0, 'max': 0.0}, {'current': 1785.616, 'min': 0.0, 'max': 0.0}, {'current': 1794.102, 'min': 0.0, 'max': 0.0}, {'current': 3716.77, 'min': 0.0, 'max': 0.0}, {'current': 3712.47, 'min': 0.0, 'max': 0.0}, {'current': 3361.704, 'min': 0.0, 'max': 0.0}, {'current': 3349.56, 'min': 0.0, 'max': 0.0}, {'current': 2642.592, 'min': 0.0, 'max': 0.0}, {'current': 2643.105, 'min': 0.0, 'max': 0.0}, {'current': 2685.138, 'min': 0.0, 'max': 0.0}, {'current': 2683.379, 'min': 0.0, 'max': 0.0}, {'current': 2498.982, 'min': 0.0, 'max': 0.0}, {'current': 2711.297, 'min': 0.0, 'max': 0.0}, {'current': 2691.192, 'min': 0.0, 'max': 0.0}, {'current': 1934.634, 'min': 0.0, 'max': 0.0}, {'current': 2494.709, 'min': 0.0, 'max': 0.0}, {'current': 2470.947, 'min': 0.0, 'max': 0.0}, {'current': 2360.151, 'min': 0.0, 'max': 0.0}, {'current': 2632.594, 'min': 0.0, 'max': 0.0}, {'current': 3363.191, 'min': 0.0, 'max': 0.0}, {'current': 3361.914, 'min': 0.0, 'max': 0.0}, {'current': 3359.13, 'min': 0.0, 'max': 0.0}, {'current': 3714.543, 'min': 0.0, 'max': 0.0}, {'current': 3713.11, 'min': 0.0, 'max': 0.0}, {'current': 3713.46, 'min': 0.0, 'max': 0.0}, {'current': 3358.905, 'min': 0.0, 'max': 0.0}, {'current': 3362.625, 'min': 0.0, 'max': 0.0}, {'current': 3369.68, 'min': 0.0, 'max': 0.0}, {'current': 3707.531, 'min': 0.0, 'max': 0.0}, {'current': 3370.449, 'min': 0.0, 'max': 0.0}, {'current': 3333.365, 'min': 0.0, 'max': 0.0}, {'current': 2652.725, 'min': 0.0, 'max': 0.0}, {'current': 2663.52, 'min': 0.0, 'max': 0.0}, {'current': 2664.485, 'min': 0.0, 'max': 0.0}, {'current': 2644.973, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 251.61175537109375, 'used': 0.10182571411132812}}, 'gpu': 'NVIDIA A100-SXM4-40GB', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA A100-SXM4-40GB', 'memory_total': 42949672960}, {'name': 'NVIDIA A100-SXM4-40GB', 'memory_total': 42949672960}, {'name': 'NVIDIA A100-SXM4-40GB', 'memory_total': 42949672960}, {'name': 'NVIDIA A100-SXM4-40GB', 'memory_total': 42949672960}], 'memory': {'total': 503.22351455688477}}
+2024-03-22 00:49:52,265 INFO    HandlerThread:56954 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-22 00:49:52,265 INFO    HandlerThread:56954 [system_monitor.py:probe():227] Publishing system info
+2024-03-22 00:49:52,265 DEBUG   HandlerThread:56954 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-03-22 00:49:52,268 DEBUG   HandlerThread:56954 [system_info.py:_save_pip():68] Saving pip packages done
+2024-03-22 00:49:52,272 INFO    HandlerThread:56954 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-22 00:49:52,324 DEBUG   SenderThread:56954 [sender.py:send():380] send: files
+2024-03-22 00:49:52,324 INFO    SenderThread:56954 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2024-03-22 00:49:52,325 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 00:49:52,325 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: stop_status
+2024-03-22 00:49:52,333 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 00:49:52,404 DEBUG   SenderThread:56954 [sender.py:send():380] send: telemetry
+2024-03-22 00:49:52,579 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: log_artifact
+2024-03-22 00:49:52,580 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: log_artifact
+2024-03-22 00:49:52,694 INFO    wandb-upload_0:56954 [upload_job.py:push():131] Uploaded file /var/tmp/pbs.1794328.polaris-pbs-01.hsn.cm.polaris.alcf.anl.gov/tmpzodnw9kiwandb/uwq5p011-wandb-metadata.json
+2024-03-22 00:49:53,143 INFO    Thread-12 :56954 [dir_watcher.py:_on_file_created():271] file/dir created: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/wandb-metadata.json
+2024-03-22 00:49:53,143 INFO    Thread-12 :56954 [dir_watcher.py:_on_file_created():271] file/dir created: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/requirements.txt
+2024-03-22 00:49:53,269 INFO    wandb-upload_0:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmp1ot8n800
+2024-03-22 00:49:53,270 INFO    wandb-upload_1:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmpngewz3yi
+2024-03-22 00:49:53,343 INFO    wandb-upload_3:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmpqxgevfwv
+2024-03-22 00:49:53,356 INFO    wandb-upload_6:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmp62v9w_ix
+2024-03-22 00:49:53,358 INFO    wandb-upload_10:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmp570nmxeo
+2024-03-22 00:49:53,371 INFO    wandb-upload_4:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmpuycokyoc
+2024-03-22 00:49:53,391 INFO    wandb-upload_8:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmpr2qdjg4w
+2024-03-22 00:49:53,451 INFO    wandb-upload_2:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmpsb3i4vp4
+2024-03-22 00:49:53,453 INFO    wandb-upload_5:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmpq5f00jlp
+2024-03-22 00:49:53,466 INFO    wandb-upload_13:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmpvf2ixbi2
+2024-03-22 00:49:53,474 INFO    wandb-upload_12:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmpk5o_icdj
+2024-03-22 00:49:53,489 INFO    wandb-upload_15:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmpr9tdl94e
+2024-03-22 00:49:53,491 INFO    wandb-upload_7:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmpb6q_6f2x
+2024-03-22 00:49:53,492 INFO    wandb-upload_16:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmpcpwfhen9
+2024-03-22 00:49:53,494 INFO    wandb-upload_11:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmps7oj45nt
+2024-03-22 00:49:53,498 INFO    wandb-upload_14:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmp2apvh1d9
+2024-03-22 00:49:53,504 INFO    wandb-upload_9:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmp3qgdtjf2
+2024-03-22 00:49:53,563 INFO    wandb-upload_17:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmpxu9dk9qr
+2024-03-22 00:49:53,579 INFO    wandb-upload_0:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmp24u6xze2
+2024-03-22 00:49:53,589 INFO    wandb-upload_19:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmp9fxu4d4f
+2024-03-22 00:49:53,595 INFO    wandb-upload_18:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmpmx6k6mx7
+2024-03-22 00:49:53,596 INFO    wandb-upload_1:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmp2ral8t9z
+2024-03-22 00:49:54,017 INFO    SenderThread:56954 [sender.py:send_request_log_artifact():1444] logged artifact source-WordPlay-src_wordplay___main__.py - {'id': 'QXJ0aWZhY3Q6NzY2MTAxMzQ0', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1MTI5MjIxMg==', 'latestArtifact': None}}
+2024-03-22 00:49:54,063 DEBUG   SenderThread:56954 [sender.py:send():380] send: config
+2024-03-22 00:49:54,063 DEBUG   SenderThread:56954 [sender.py:send():380] send: config
+2024-03-22 00:49:54,063 DEBUG   SenderThread:56954 [sender.py:send():380] send: config
+2024-03-22 00:49:54,063 DEBUG   SenderThread:56954 [sender.py:send():380] send: config
+2024-03-22 00:49:54,063 DEBUG   SenderThread:56954 [sender.py:send():380] send: config
+2024-03-22 00:49:54,063 DEBUG   SenderThread:56954 [sender.py:send():380] send: config
+2024-03-22 00:49:54,063 DEBUG   SenderThread:56954 [sender.py:send():380] send: config
+2024-03-22 00:49:54,063 DEBUG   SenderThread:56954 [sender.py:send():380] send: config
+2024-03-22 00:49:54,063 DEBUG   SenderThread:56954 [sender.py:send():380] send: telemetry
+2024-03-22 00:49:54,064 DEBUG   SenderThread:56954 [sender.py:send():380] send: config
+2024-03-22 00:49:54,064 DEBUG   SenderThread:56954 [sender.py:send():380] send: config
+2024-03-22 00:49:54,064 DEBUG   SenderThread:56954 [sender.py:send():380] send: telemetry
+2024-03-22 00:49:54,064 DEBUG   SenderThread:56954 [sender.py:send():380] send: config
+2024-03-22 00:49:54,144 INFO    Thread-12 :56954 [dir_watcher.py:_on_file_created():271] file/dir created: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/output.log
+2024-03-22 00:49:55,587 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 00:49:56,157 INFO    Thread-12 :56954 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/output.log
+2024-03-22 00:49:57,587 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 00:49:58,158 INFO    Thread-12 :56954 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/output.log
+2024-03-22 00:50:00,158 INFO    Thread-12 :56954 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/output.log
+2024-03-22 00:50:00,533 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 00:50:00,535 DEBUG   SenderThread:56954 [sender.py:send():380] send: history
+2024-03-22 00:50:00,535 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: summary_record
+2024-03-22 00:50:00,549 INFO    SenderThread:56954 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-22 00:50:00,986 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 00:50:00,988 DEBUG   SenderThread:56954 [sender.py:send():380] send: history
+2024-03-22 00:50:00,988 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: summary_record
+2024-03-22 00:50:00,990 INFO    SenderThread:56954 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-22 00:50:01,160 INFO    Thread-12 :56954 [dir_watcher.py:_on_file_created():271] file/dir created: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/wandb-summary.json
+2024-03-22 00:50:01,428 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 00:50:01,429 DEBUG   SenderThread:56954 [sender.py:send():380] send: history
+2024-03-22 00:50:01,429 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: summary_record
+2024-03-22 00:50:01,431 INFO    SenderThread:56954 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-22 00:50:01,867 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 00:50:01,871 DEBUG   SenderThread:56954 [sender.py:send():380] send: history
+2024-03-22 00:50:01,872 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: summary_record
+2024-03-22 00:50:01,874 INFO    SenderThread:56954 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-22 00:50:02,164 INFO    Thread-12 :56954 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/output.log
+2024-03-22 00:50:02,165 INFO    Thread-12 :56954 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/wandb-summary.json
+2024-03-22 00:50:02,315 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 00:50:02,317 DEBUG   SenderThread:56954 [sender.py:send():380] send: history
+2024-03-22 00:50:02,317 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: summary_record
+2024-03-22 00:50:02,320 INFO    SenderThread:56954 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-22 00:50:02,763 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 00:50:02,764 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 00:50:02,765 DEBUG   SenderThread:56954 [sender.py:send():380] send: history
+2024-03-22 00:50:02,766 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: summary_record
+2024-03-22 00:50:02,769 INFO    SenderThread:56954 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-22 00:50:03,166 INFO    Thread-12 :56954 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/wandb-summary.json
+2024-03-22 00:50:03,208 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 00:50:03,209 DEBUG   SenderThread:56954 [sender.py:send():380] send: history
+2024-03-22 00:50:03,209 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: summary_record
+2024-03-22 00:50:03,212 INFO    SenderThread:56954 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-22 00:50:03,650 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 00:50:03,651 DEBUG   SenderThread:56954 [sender.py:send():380] send: history
+2024-03-22 00:50:03,651 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: summary_record
+2024-03-22 00:50:03,654 INFO    SenderThread:56954 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-22 00:50:04,071 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 00:50:04,074 DEBUG   SenderThread:56954 [sender.py:send():380] send: history
+2024-03-22 00:50:04,075 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: summary_record
+2024-03-22 00:50:04,078 INFO    SenderThread:56954 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-22 00:50:04,169 INFO    Thread-12 :56954 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/output.log
+2024-03-22 00:50:04,169 INFO    Thread-12 :56954 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/wandb-summary.json
+2024-03-22 00:50:04,513 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 00:50:04,514 DEBUG   SenderThread:56954 [sender.py:send():380] send: history
+2024-03-22 00:50:04,515 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: summary_record
+2024-03-22 00:50:04,518 INFO    SenderThread:56954 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-22 00:50:04,902 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 00:50:04,903 DEBUG   SenderThread:56954 [sender.py:send():380] send: history
+2024-03-22 00:50:04,904 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: summary_record
+2024-03-22 00:50:04,907 INFO    SenderThread:56954 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-22 00:50:05,331 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 00:50:05,333 DEBUG   SenderThread:56954 [sender.py:send():380] send: history
+2024-03-22 00:50:05,333 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: summary_record
+2024-03-22 00:50:05,336 INFO    SenderThread:56954 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-22 00:50:05,796 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 00:50:05,797 DEBUG   SenderThread:56954 [sender.py:send():380] send: history
+2024-03-22 00:50:05,798 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: summary_record
+2024-03-22 00:50:05,801 INFO    SenderThread:56954 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-22 00:50:06,171 INFO    Thread-12 :56954 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/output.log
+2024-03-22 00:50:06,172 INFO    Thread-12 :56954 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/wandb-summary.json
+2024-03-22 00:50:06,275 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 00:50:06,279 DEBUG   SenderThread:56954 [sender.py:send():380] send: history
+2024-03-22 00:50:06,279 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: summary_record
+2024-03-22 00:50:06,282 INFO    SenderThread:56954 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-22 00:50:06,807 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 00:50:06,809 DEBUG   SenderThread:56954 [sender.py:send():380] send: history
+2024-03-22 00:50:06,809 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: summary_record
+2024-03-22 00:50:06,813 INFO    SenderThread:56954 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-22 00:50:07,173 INFO    Thread-12 :56954 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/wandb-summary.json
+2024-03-22 00:50:07,243 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 00:50:07,244 DEBUG   SenderThread:56954 [sender.py:send():380] send: history
+2024-03-22 00:50:07,245 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: summary_record
+2024-03-22 00:50:07,248 INFO    SenderThread:56954 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-22 00:50:07,372 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 00:50:07,372 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 00:50:07,373 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: stop_status
+2024-03-22 00:50:07,707 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 00:50:07,709 DEBUG   SenderThread:56954 [sender.py:send():380] send: history
+2024-03-22 00:50:07,709 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: summary_record
+2024-03-22 00:50:07,713 INFO    SenderThread:56954 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-22 00:50:07,794 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 00:50:08,140 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 00:50:08,141 DEBUG   SenderThread:56954 [sender.py:send():380] send: history
+2024-03-22 00:50:08,141 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: summary_record
+2024-03-22 00:50:08,144 INFO    SenderThread:56954 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-22 00:50:08,178 INFO    Thread-12 :56954 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/output.log
+2024-03-22 00:50:08,178 INFO    Thread-12 :56954 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/wandb-summary.json
+2024-03-22 00:50:08,612 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 00:50:08,616 DEBUG   SenderThread:56954 [sender.py:send():380] send: history
+2024-03-22 00:50:08,617 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: summary_record
+2024-03-22 00:50:08,619 INFO    SenderThread:56954 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-22 00:50:09,069 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 00:50:09,070 DEBUG   SenderThread:56954 [sender.py:send():380] send: history
+2024-03-22 00:50:09,071 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: summary_record
+2024-03-22 00:50:09,074 INFO    SenderThread:56954 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-22 00:50:09,180 INFO    Thread-12 :56954 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/wandb-summary.json
+2024-03-22 00:50:10,180 INFO    Thread-12 :56954 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/output.log
+2024-03-22 00:50:10,664 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: log_artifact
+2024-03-22 00:50:10,664 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: log_artifact
+2024-03-22 00:50:11,671 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 00:50:11,838 INFO    wandb-upload_3:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmp5dx7ml02
+2024-03-22 00:50:12,181 INFO    Thread-12 :56954 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/output.log
+2024-03-22 00:50:12,258 INFO    SenderThread:56954 [sender.py:send_request_log_artifact():1444] logged artifact model - {'id': 'QXJ0aWZhY3Q6NzY2MTAxNjAx', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1MTI5MjMxMw==', 'latestArtifact': None}}
+2024-03-22 00:50:12,258 DEBUG   SenderThread:56954 [sender.py:send():380] send: telemetry
+2024-03-22 00:50:12,258 DEBUG   SenderThread:56954 [sender.py:send():380] send: exit
+2024-03-22 00:50:12,259 INFO    SenderThread:56954 [sender.py:send_exit():585] handling exit code: 0
+2024-03-22 00:50:12,259 INFO    SenderThread:56954 [sender.py:send_exit():587] handling runtime: 18
+2024-03-22 00:50:12,261 INFO    SenderThread:56954 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-22 00:50:12,261 INFO    SenderThread:56954 [sender.py:send_exit():593] send defer
+2024-03-22 00:50:12,262 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: poll_exit
+2024-03-22 00:50:12,262 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 00:50:12,262 INFO    HandlerThread:56954 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-22 00:50:12,262 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: defer
+2024-03-22 00:50:12,262 INFO    SenderThread:56954 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-03-22 00:50:12,262 INFO    SenderThread:56954 [sender.py:transition_state():613] send defer: 1
+2024-03-22 00:50:12,262 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 00:50:12,262 INFO    HandlerThread:56954 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-22 00:50:12,262 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: defer
+2024-03-22 00:50:12,262 INFO    SenderThread:56954 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-03-22 00:50:12,262 INFO    SenderThread:56954 [sender.py:transition_state():613] send defer: 2
+2024-03-22 00:50:12,262 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 00:50:12,263 INFO    HandlerThread:56954 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-22 00:50:12,263 INFO    HandlerThread:56954 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-22 00:50:12,263 DEBUG   SystemMonitor:56954 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-22 00:50:12,263 DEBUG   SystemMonitor:56954 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-22 00:50:12,263 DEBUG   SystemMonitor:56954 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-22 00:50:12,275 INFO    HandlerThread:56954 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-22 00:50:12,275 INFO    HandlerThread:56954 [interfaces.py:finish():202] Joined disk monitor
+2024-03-22 00:50:12,477 INFO    HandlerThread:56954 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-22 00:50:12,477 INFO    HandlerThread:56954 [interfaces.py:finish():202] Joined memory monitor
+2024-03-22 00:50:12,478 INFO    HandlerThread:56954 [interfaces.py:finish():202] Joined network monitor
+2024-03-22 00:50:12,478 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: defer
+2024-03-22 00:50:12,478 INFO    SenderThread:56954 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-03-22 00:50:12,478 INFO    SenderThread:56954 [sender.py:transition_state():613] send defer: 3
+2024-03-22 00:50:12,478 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 00:50:12,478 INFO    HandlerThread:56954 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-22 00:50:12,478 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: defer
+2024-03-22 00:50:12,478 INFO    SenderThread:56954 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-03-22 00:50:12,478 INFO    SenderThread:56954 [sender.py:transition_state():613] send defer: 4
+2024-03-22 00:50:12,478 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 00:50:12,478 INFO    HandlerThread:56954 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-22 00:50:12,478 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: defer
+2024-03-22 00:50:12,478 INFO    SenderThread:56954 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-03-22 00:50:12,478 INFO    SenderThread:56954 [sender.py:transition_state():613] send defer: 5
+2024-03-22 00:50:12,478 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 00:50:12,479 INFO    HandlerThread:56954 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-22 00:50:12,479 DEBUG   SenderThread:56954 [sender.py:send():380] send: summary
+2024-03-22 00:50:12,482 INFO    SenderThread:56954 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-22 00:50:12,482 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: defer
+2024-03-22 00:50:12,482 INFO    SenderThread:56954 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-03-22 00:50:12,482 INFO    SenderThread:56954 [sender.py:transition_state():613] send defer: 6
+2024-03-22 00:50:12,483 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 00:50:12,483 INFO    HandlerThread:56954 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-22 00:50:12,483 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: defer
+2024-03-22 00:50:12,483 INFO    SenderThread:56954 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-03-22 00:50:12,486 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 00:50:12,612 INFO    SenderThread:56954 [sender.py:transition_state():613] send defer: 7
+2024-03-22 00:50:12,612 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 00:50:12,612 INFO    HandlerThread:56954 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-22 00:50:12,612 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: defer
+2024-03-22 00:50:12,612 INFO    SenderThread:56954 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-03-22 00:50:12,671 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 00:50:13,183 INFO    Thread-12 :56954 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/wandb-summary.json
+2024-03-22 00:50:13,183 INFO    Thread-12 :56954 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/config.yaml
+2024-03-22 00:50:15,597 INFO    SenderThread:56954 [sender.py:transition_state():613] send defer: 8
+2024-03-22 00:50:15,597 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: poll_exit
+2024-03-22 00:50:15,597 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 00:50:15,598 INFO    HandlerThread:56954 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-22 00:50:15,598 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: defer
+2024-03-22 00:50:15,598 INFO    SenderThread:56954 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-03-22 00:50:15,598 INFO    SenderThread:56954 [job_builder.py:build():281] Attempting to build job artifact
+2024-03-22 00:50:15,600 INFO    SenderThread:56954 [job_builder.py:_get_source_type():393] is repo sourced job
+2024-03-22 00:50:15,600 INFO    SenderThread:56954 [job_builder.py:build():369] adding wandb-job metadata file
+2024-03-22 00:50:15,614 INFO    SenderThread:56954 [sender.py:transition_state():613] send defer: 9
+2024-03-22 00:50:15,614 DEBUG   SenderThread:56954 [sender.py:send():380] send: artifact
+2024-03-22 00:50:15,614 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 00:50:15,616 INFO    HandlerThread:56954 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-22 00:50:16,142 INFO    wandb-upload_4:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmpthumceb1
+2024-03-22 00:50:16,156 INFO    wandb-upload_10:56954 [upload_job.py:push():89] Uploaded file /home/iklein/.local/share/wandb/artifacts/staging/tmp2bu56w6q
+2024-03-22 00:50:16,184 INFO    Thread-12 :56954 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/output.log
+2024-03-22 00:50:16,720 INFO    SenderThread:56954 [sender.py:send_artifact():1456] sent artifact job-https___github.com_saforem2_wordplay_src_wordplay___main__.py - {'id': 'QXJ0aWZhY3Q6NzY2MTAxNjUx', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1MTI5MjMyMA==', 'latestArtifact': None}}
+2024-03-22 00:50:16,720 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: defer
+2024-03-22 00:50:16,720 INFO    SenderThread:56954 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-03-22 00:50:16,720 INFO    SenderThread:56954 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-22 00:50:17,185 INFO    SenderThread:56954 [dir_watcher.py:finish():388] scan: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files
+2024-03-22 00:50:17,185 INFO    SenderThread:56954 [dir_watcher.py:finish():402] scan save: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/wandb-summary.json wandb-summary.json
+2024-03-22 00:50:17,185 INFO    SenderThread:56954 [dir_watcher.py:finish():402] scan save: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/wandb-metadata.json wandb-metadata.json
+2024-03-22 00:50:17,185 INFO    SenderThread:56954 [dir_watcher.py:finish():402] scan save: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/output.log output.log
+2024-03-22 00:50:17,186 INFO    SenderThread:56954 [dir_watcher.py:finish():402] scan save: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/requirements.txt requirements.txt
+2024-03-22 00:50:17,186 INFO    SenderThread:56954 [dir_watcher.py:finish():402] scan save: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/config.yaml config.yaml
+2024-03-22 00:50:17,186 INFO    SenderThread:56954 [sender.py:transition_state():613] send defer: 10
+2024-03-22 00:50:17,186 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 00:50:17,186 INFO    HandlerThread:56954 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-22 00:50:17,192 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: defer
+2024-03-22 00:50:17,192 INFO    SenderThread:56954 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-03-22 00:50:17,192 INFO    SenderThread:56954 [file_pusher.py:finish():175] shutting down file pusher
+2024-03-22 00:50:17,416 INFO    wandb-upload_5:56954 [upload_job.py:push():131] Uploaded file /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/output.log
+2024-03-22 00:50:17,494 INFO    wandb-upload_13:56954 [upload_job.py:push():131] Uploaded file /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/requirements.txt
+2024-03-22 00:50:17,503 INFO    wandb-upload_12:56954 [upload_job.py:push():131] Uploaded file /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/config.yaml
+2024-03-22 00:50:17,672 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-22 00:50:20,351 INFO    wandb-upload_2:56954 [upload_job.py:push():131] Uploaded file /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/files/wandb-summary.json
+2024-03-22 00:50:20,552 INFO    Thread-11 (_thread_body):56954 [sender.py:transition_state():613] send defer: 11
+2024-03-22 00:50:20,553 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 00:50:20,553 INFO    HandlerThread:56954 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-22 00:50:20,553 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: defer
+2024-03-22 00:50:20,553 INFO    SenderThread:56954 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-03-22 00:50:20,553 INFO    SenderThread:56954 [file_pusher.py:join():181] waiting for file pusher
+2024-03-22 00:50:20,553 INFO    SenderThread:56954 [sender.py:transition_state():613] send defer: 12
+2024-03-22 00:50:20,553 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 00:50:20,553 INFO    HandlerThread:56954 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-22 00:50:20,553 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: defer
+2024-03-22 00:50:20,553 INFO    SenderThread:56954 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-03-22 00:50:20,553 INFO    SenderThread:56954 [file_stream.py:finish():595] file stream finish called
+2024-03-22 00:50:20,736 INFO    SenderThread:56954 [file_stream.py:finish():599] file stream finish is done
+2024-03-22 00:50:20,736 INFO    SenderThread:56954 [sender.py:transition_state():613] send defer: 13
+2024-03-22 00:50:20,736 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 00:50:20,736 INFO    HandlerThread:56954 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-22 00:50:20,736 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 00:50:20,736 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: defer
+2024-03-22 00:50:20,736 INFO    SenderThread:56954 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-03-22 00:50:20,736 INFO    SenderThread:56954 [sender.py:transition_state():613] send defer: 14
+2024-03-22 00:50:20,737 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 00:50:20,737 INFO    HandlerThread:56954 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-22 00:50:20,737 DEBUG   SenderThread:56954 [sender.py:send():380] send: final
+2024-03-22 00:50:20,737 DEBUG   SenderThread:56954 [sender.py:send():380] send: footer
+2024-03-22 00:50:20,737 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: defer
+2024-03-22 00:50:20,737 INFO    SenderThread:56954 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-03-22 00:50:20,737 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 00:50:20,738 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 00:50:20,738 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: server_info
+2024-03-22 00:50:20,738 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-22 00:50:20,739 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-22 00:50:20,739 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: job_info
+2024-03-22 00:50:20,740 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: poll_exit
+2024-03-22 00:50:20,740 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: server_info
+2024-03-22 00:50:20,815 DEBUG   SenderThread:56954 [sender.py:send_request():407] send_request: job_info
+2024-03-22 00:50:20,816 DEBUG   HandlerThread:56954 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-22 00:50:20,816 INFO    HandlerThread:56954 [handler.py:finish():866] shutting down handler
+2024-03-22 00:50:21,740 INFO    WriterThread:56954 [datastore.py:close():294] close: /home/iklein/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-03-22/00-49-47/wandb/run-20240322_004951-lwmp9tvl/run-lwmp9tvl.wandb
+2024-03-22 00:50:21,815 INFO    SenderThread:56954 [sender.py:finish():1534] shutting down sender
+2024-03-22 00:50:21,816 INFO    SenderThread:56954 [file_pusher.py:finish():175] shutting down file pusher
+2024-03-22 00:50:21,816 INFO    SenderThread:56954 [file_pusher.py:join():181] waiting for file pusher
