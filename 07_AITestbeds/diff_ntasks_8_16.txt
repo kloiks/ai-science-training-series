@@ -1,0 +1,51 @@
+3c3
+< Time:  00:55
+---
+> Time:  01:08
+250,253c250,254
+< 2024-04-05 00:55:06,575 - apps.nlp.transformers_on_rdu.transformers_hook - Process ID 1932704 - info     - NLP app started.
+< 2024-04-05 00:55:06,633 - apps.nlp.transformers_on_rdu.tasks.utils.lazy_gpt2_pretrain - Process ID 1932704 - info     - Patching gpt2 hf model attr 'GPT2PreTrainedModel._init_weights'
+< 2024-04-05 00:55:06,633 - apps.nlp.transformers_on_rdu.tasks.utils.lazy_gpt2_pretrain - Process ID 1932704 - info     - Patching mlm_ns hf model attr 'BertPreTrainedModel._init_weights'
+Downloading: 100%|██████████| 1.34G/1.34G [00:10<00:00, 129MB/s]
+---
+> 2024-04-05 01:09:05,357 - apps.nlp.transformers_on_rdu.transformers_hook - Process ID 2231065 - info     - NLP app started.
+Downloading: 100%|██████████| 571/571 [00:00<00:00, 684kB/s]
+> 2024-04-05 01:09:05,480 - apps.nlp.transformers_on_rdu.tasks.utils.lazy_gpt2_pretrain - Process ID 2231065 - info     - Patching gpt2 hf model attr 'GPT2PreTrainedModel._init_weights'
+> 2024-04-05 01:09:05,481 - apps.nlp.transformers_on_rdu.tasks.utils.lazy_gpt2_pretrain - Process ID 2231065 - info     - Patching mlm_ns hf model attr 'BertPreTrainedModel._init_weights'
+Downloading: 100%|██████████| 1.34G/1.34G [00:10<00:00, 130MB/s]
+256,264c257,265
+< 2024-04-05 00:55:21,364 - apps.nlp.transformers_on_rdu.tasks.utils.lazy_gpt2_pretrain - Process ID 1932704 - warning  - This module is not supported under lazy param initialization: tasks.lm_tasks.bert_mlperf_lm.BertForMaskedLM.BertLMPredictionHead
+Downloading: 100%|██████████| 232k/232k [00:00<00:00, 31.9MB/s]
+Downloading: 100%|██████████| 466k/466k [00:00<00:00, 7.29MB/s]
+Downloading: 100%|██████████| 48.0/48.0 [00:00<00:00, 98.9kB/s]
+< 2024-04-05 00:55:22,270 - apps.nlp.transformers_on_rdu.transformers_hook - Process ID 1932704 - info     - Dataset is loading.
+< 2024-04-05 00:55:22,270 - apps.nlp.transformers_on_rdu.transformers_hook - Process ID 1932704 - info     - Dataset has finished loading.
+< 2024-04-05 00:55:22,270 - apps.nlp.transformers_on_rdu.transformers_hook - Process ID 1932704 - info     - transformers_hook app running in compile mode
+< Log ID initialized to: [iklein][python][1932704] at /var/log/sambaflow/runtime/sn.log
+< 2024-04-05 00:55:22,686 - py.warnings - Process ID 1932704 - warning  - /usr/local/lib/python3.8/site-packages/torch/overrides.py:1349: DeprecationWarning: Defining your `__torch_function__ as a plain method is deprecated and will be an error in PyTorch 1.11, please define it as a classmethod.
+---
+> 2024-04-05 01:09:19,122 - apps.nlp.transformers_on_rdu.tasks.utils.lazy_gpt2_pretrain - Process ID 2231065 - warning  - This module is not supported under lazy param initialization: tasks.lm_tasks.bert_mlperf_lm.BertForMaskedLM.BertLMPredictionHead
+Downloading: 100%|██████████| 232k/232k [00:00<00:00, 4.83MB/s]
+Downloading: 100%|██████████| 466k/466k [00:00<00:00, 49.2MB/s]
+Downloading: 100%|██████████| 48.0/48.0 [00:00<00:00, 93.6kB/s]
+> 2024-04-05 01:09:19,980 - apps.nlp.transformers_on_rdu.transformers_hook - Process ID 2231065 - info     - Dataset is loading.
+> 2024-04-05 01:09:19,980 - apps.nlp.transformers_on_rdu.transformers_hook - Process ID 2231065 - info     - Dataset has finished loading.
+> 2024-04-05 01:09:19,981 - apps.nlp.transformers_on_rdu.transformers_hook - Process ID 2231065 - info     - transformers_hook app running in compile mode
+> Log ID initialized to: [iklein][python][2231065] at /var/log/sambaflow/runtime/sn.log
+> 2024-04-05 01:09:20,392 - py.warnings - Process ID 2231065 - warning  - /usr/local/lib/python3.8/site-packages/torch/overrides.py:1349: DeprecationWarning: Defining your `__torch_function__ as a plain method is deprecated and will be an error in PyTorch 1.11, please define it as a classmethod.
+1132c1133
+< 2024-04-05 01:08:14,276 - apps.nlp.transformers_on_rdu.transformers_hook - Process ID 1932704 - info     - NLP app finished
+---
+> 2024-04-05 01:22:26,967 - apps.nlp.transformers_on_rdu.transformers_hook - Process ID 2231065 - info     - NLP app finished
+1410c1411
+< COMPILE END AT 795
+---
+> COMPILE END AT 809
+1445c1446
+< Submitted batch job 30533
+---
+> Submitted batch job 30535
+1680c1681
+< Duration:  795
+---
+> Duration:  809
