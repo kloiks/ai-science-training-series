@@ -1,0 +1,18 @@
+Woohoo! Build "bert_tiny_modified" (build_name auto-selected) found in cache. Loading it!
+Preprocessing data.
+/home/iklein/miniconda3/envs/groqflow/lib/python3.10/site-packages/datasets/load.py:1461: FutureWarning: The repository for sst contains custom code which must be executed to correctly load the dataset. You can inspect the repository content at https://hf.co/datasets/sst
+You can avoid this message in future by passing the argument `trust_remote_code=True`.
+Passing `trust_remote_code=True` will be mandatory to load this dataset from the next major release of `datasets`.
+  warnings.warn(
+
+Info: No inputs received for benchmark. Using the inputs provided during model compilation.
+Running inference on GroqChip.
+Running inference using PyTorch model (CPU).
+100%|████████████████████████████████████████████████████████████████████████| 2210/2210 [00:05<00:00, 408.17it/s]
++--------+----------+-------------------------+----------------+----------------------+-------------+
+| Source | Accuracy | end-to-end latency (ms) | end-to-end IPS | on-chip latency (ms) | on-chip IPS |
++--------+----------+-------------------------+----------------+----------------------+-------------+
+|  cpu   |  77.47%  |           2.45          |     407.87     |          --          |      --     |
+|  groq  |  77.47%  |           0.06          |    17882.73    |         0.03         |   37576.72  |
++--------+----------+-------------------------+----------------+----------------------+-------------+
+Proof point /home/iklein/groqflow/proof_points/natural_language_processing/bert/bert_tiny_modified.py finished!
