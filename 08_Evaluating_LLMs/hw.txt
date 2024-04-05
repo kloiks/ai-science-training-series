@@ -1,0 +1,11 @@
+
+LLMs are powerful due to having "seen" or been train on very large amounts of data. A partifular use case
+for science could be predicting hypothesis and relationships between scientific topics based on articles, scientific reports,
+research papers and other mediums in a particular topic. They can summarize research findings, uncover trends, and even
+generate research hypotheses.The LLM is able to go through all these resources and detect potential correlations, thus
+assiting the researcher in their literature review process.
+
+One way to measure the success in this task is to track the citations and follow-up research that builds on the findings
+facilitated by LLMs. This would reflect the contribution to new scientific knowledge and insights. A way to train such a model
+would involve collecting various scientific texts for a period before a certain date and testing on the scientific discoveries
+made after that date. 
